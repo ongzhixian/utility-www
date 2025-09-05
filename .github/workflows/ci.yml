@@ -29,4 +29,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy Static Site to S3 Bucket
-        run: aws s3 sync ./web s3://utility.readyperfectly.com --delete --cache-control max-age=60
+        run: aws s3 sync ./website s3://utility.readyperfectly.com --delete --cache-control max-age=60
