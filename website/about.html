@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Utility</title>
+    <title>About | Utility</title>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,17 +16,47 @@
 
 <body>
 
-    <div class="container" >
-        <div class="row">
+    <main class="container">
+        
+        <div class="row header">
+            <nav class="header">
+                <div class="text-center">
+                    <site-navigation-bar></site-navigation-bar>
+                </div>
+            </nav>
             <div class="text-center">
-                <h2>About </h2>
-
-                <p>Web page for Utility-API</p>
+                <h1>About</h1>
             </div>
         </div>
-        
-    </div>
+        <div class="row">
+            <article>
+                <section>
+                    <h2>Website</h2>
+                    <section>
+                        <h3>Purpose</h3>
+                        <p>This is a static website that documents Utility-API.</p>
+                        <p>While its probably more common to use an OpenApi (swagger) document, 
+                            I wanted to have a separate space to document some developer notes.</p>
+                    </section>
+                </section>
+                
+                <section>
+                    <h2>Utility-API</h2>
+                    <section>
+                        <h3>Purpose</h3>
+                        <p>Utility-API is a collection of standalone utilities hosted online as an API that can be used by many other website.</p>
+                    </section>
+                </section>
 
+                <footer>
+                </footer>
+            </article>
+        </div>
+
+
+    </main>
+
+    <script src="components/site-navigation-bar.js" defer></script>
 </body>
 
 </html>
