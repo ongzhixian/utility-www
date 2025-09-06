@@ -3,6 +3,8 @@ name: Continuous Integration
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'README.md' # Ignores changes to the 'README.md' file
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
